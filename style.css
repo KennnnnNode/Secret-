@@ -1,0 +1,36 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: #0d0d0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+}
+
+
+.container {
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 3rem;
+    color: #ff0000;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff3333, 0 0 40px #ff6666;
+    margin-bottom: 30px;
+}
+
+
+.secret-img {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
+    transition: transform 0.3s ease;
+}
+
+.secret-img:hover {
+    transform: scale(1.1);
+}
